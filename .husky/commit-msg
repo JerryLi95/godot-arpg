@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
+npm commitlint -E HUSKY_GIT_PARAMS
 
-npx  commitlint --edit $1
+
