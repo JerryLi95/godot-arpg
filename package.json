@@ -24,7 +24,7 @@
         "release:minor": "standard-version -r minor -n",
         "release:patch": "standard-version -r patch -n",
         "prerelease:alpha": "standard-version -p alpha -n",
-        "prerelease:beta": "standard-version -p beta -n,
+        "prerelease:beta": "standard-version -p beta -n"
     },
     "version": "0.1.1"
 }
