@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.5 (2022-05-03)
+
+
+### Bug Fixes
+
+* 修复了commitlint的bug ([aa4d3fd](https://github.com/JerryLi95/godot-arpg/commit/aa4d3fd183b59b685f1e7d4834064b6cdbf996d1))
+* 修改全局文件丢失问题 ([c5badaa](https://github.com/JerryLi95/godot-arpg/commit/c5badaa1b61a6a16758f241fed755821586a1495))
+
 ### [0.0.4](https://github.com/JerryLi95/godot-arpg/compare/v0.0.3...v0.0.4) (2022-05-02)
 
 
