@@ -2,7 +2,8 @@
     "devDependencies": {
         "@commitlint/cli": "^16.2.4",
         "@commitlint/config-conventional": "^16.2.4",
-        "cz-conventional-changelog": "^3.3.0"
+        "cz-conventional-changelog": "^3.3.0",
+        "husky": "^7.0.0"
     },
     "husky": {
         "hooks": {
@@ -16,10 +17,14 @@
     },
     "scripts": {
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-        "release": "standard-version"
+        "release": "standard-version",
+        "prepare": "husky install"
     },
     "version": "0.0.4",
     "dependencies": {
         "husky": "^7.0.4"
+    },
+    "lint-staged": {
+        "*.js": "eslint"
     }
 }

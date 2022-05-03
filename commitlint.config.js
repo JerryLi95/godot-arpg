@@ -1,7 +1,18 @@
 module.exports = {
-    extends: ['@commitlint/config-conventional'],
-    rules: {
-        'type-enum': [2, 'always', ['feat', 'fix', 'style', 'refactor', 'perf', 'test', 'build', 'chore', 'revert']],
-        'subject-max-length': [1, 'always', 150], // subject建议150字以内
-    },
+
+    extends: ["@commitlint/config-conventional"],
+
 };
+
+// module.exports = {
+//     extends: ['@commitlint/config-conventional'],
+//     rules: {
+//         'type-enum': [
+//             2,
+//             'always',
+//             ['feat', 'fix', 'docs', 'style', 'refactor', 'perf', 'test', 'chore', 'revert'],
+//         ],
+//         'subject-full-stop': [0, 'never'],
+//         'subject-case': [0, 'never'],
+//     },
+// };
