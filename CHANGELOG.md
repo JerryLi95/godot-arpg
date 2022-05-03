@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 0.1.0 (2022-05-03)
+
+
+### Features
+
+* add town scene ([e931c83](https://github.com/JerryLi95/godot-arpg/commit/e931c835e517eb12a0feef77657653e78270bb86))
+
+
+### Bug Fixes
+
+* 修复了commitlint的bug ([08b1710](https://github.com/JerryLi95/godot-arpg/commit/08b171035f25400cf032aea78112fe557891a9e6))
+* 修改全局文件丢失问题 ([f8915f6](https://github.com/JerryLi95/godot-arpg/commit/f8915f6d95fcea52df48a992e7f1e2a43de66e71))
+
 ### 0.0.5 (2022-05-03)
 
 
