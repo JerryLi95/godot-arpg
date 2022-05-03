@@ -1,5 +1,5 @@
 # 我的第一个游戏实践
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)<br />
 从小学就有此梦想，如今才刚刚开始。不忘初心，希望可以做出让自己满意的东西吧。
 
 ## 当前游戏内容

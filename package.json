@@ -19,7 +19,12 @@
     "scripts": {
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
         "release": "standard-version",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "release:major": "standard-version -r major -n",
+        "release:minor": "standard-version -r minor -n",
+        "release:patch": "standard-version -r patch -n",
+        "prerelease:alpha": "standard-version -p alpha -n",
+        "prerelease:beta": "standard-version -p beta -n,
     },
     "version": "0.1.1"
 }
