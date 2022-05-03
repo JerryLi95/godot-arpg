@@ -1,5 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
-npm commitlint -E HUSKY_GIT_PARAMS
 
+# 提交记录检查
+commitlint --edit $1
 
+#npx --no commitlint --edit $1
