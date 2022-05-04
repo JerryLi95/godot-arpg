@@ -5,3 +5,6 @@
 bin/
 build/
 lib/
+
+#忽略npm安装包
+/node_modules/
