@@ -1,16 +1,15 @@
-extends Node2D
+extends AnimatedSprite
 
-onready var animatedSprite = $AnimatedSprite
 
 func _ready():
 	#设置动画到第一帧
-	animatedSprite.frame = 0
+	frame = 0
 	#对animatedSprite节点使用play方法播放动画
-	animatedSprite.play("DestroyGrass")
+	play("Animation")
 	#通过代码接收信号，在animatedSprite节点的动画播放后，使用destroyGrass函数
-	animatedSprite.connect("animation_finished", self, "destroyGrass")
+	connect("animation_finished", self, "on_animation_finished")
 
-func destroyGrass():
+func on_animation_finished():
 	queue_free()
 
 #func _ready():
