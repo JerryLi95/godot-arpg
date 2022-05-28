@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://github.com/JerryLi95/godot-arpg/compare/v0.2.1...v0.2.2) (2022-05-28)
+
+
+### Features
+
+* add enemy and enemy_death_effect ([d37d6a8](https://github.com/JerryLi95/godot-arpg/commit/d37d6a83aa54dd61e5da7c46fd3f0431ccbab801))
+* add grass and grass_destroy_animation ([936f9bb](https://github.com/JerryLi95/godot-arpg/commit/936f9bb5e3e3e47cb9a88f303a876e18a13a6012))
+
 ### [0.2.1](https://github.com/JerryLi95/godot-arpg/compare/v0.2.0...v0.2.1) (2022-05-04)
 
 
